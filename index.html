@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>EXTINCT WORLD Extinct animals</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#0b0b0b;
+color:white;
+scroll-behavior:smooth;
+}
+
+/* NAV */
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+}
+
+nav h2{
+color:orange;
+}
+
+nav button{
+background:orange;
+border:none;
+padding:8px 12px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* HEADER */
+header{
+text-align:center;
+padding:70px;
+background:linear-gradient(90deg,#ff6f00,#ffca28);
+color:black;
+}
+
+header h1{
+font-size:40px;
+}
+
+/* SEARCH */
+.search{
+text-align:center;
+margin:20px;
+}
+
+input{
+padding:10px;
+width:250px;
+border-radius:6px;
+border:none;
+outline:none;
+}
+
+/* CARDS */
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:20px;
+}
+
+.card{
+background:#1c1c1c;
+margin:15px;
+width:260px;
+border-radius:12px;
+overflow:hidden;
+transition:0.3s;
+box-shadow:0 0 10px black;
+}
+
+.card:hover{
+transform:scale(1.07);
+box-shadow:0 0 25px orange;
+}
+
+img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+h3{
+color:orange;
+margin:10px;
+}
+
+p{
+padding:0 10px 15px;
+color:#ccc;
+}
+
+/* LIGHT MODE */
+.light{
+background:white;
+color:black;
+}
+
+.light .card{
+background:#eee;
+color:black;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h2>🦖 EXTINCT GOD MODE</h2>
+<button onclick="toggleMode()">🌙 / ☀️</button>
+</nav>
+
+<header>
+<h1>🌍 GOD MODE EXTINCT WORLD</h1>
+<p>Explore the lost giants of Earth</p>
+</header>
+
+<div class="search">
+<input type="text" id="search" placeholder="Search animal...">
+</div>
+
+<div class="container" id="box">
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sues_skeleton.jpg/330px-Sues_skeleton.jpg"
+<h3>T-Rex</h3>
+<p>Most powerful predator 🦖
+
+</p>Tyrannosaurus, communément appelé Tyrannosaure, est un genre éteint de dinosaures théropodes appartenant à la famille des Tyrannosauridae et ayant vécu au Maastrichtien, dernier étage du Crétacé[1], il y a environ 69 à 66 millions d'années, avec des spécimens isolés pouvant indiquer une origine antérieure au Campanien moyen[2], en Amérique du Nord. Tyrannosaurus rex, couramment abrégé en « T. rex », dont l'étymologie du nom signifie « roi des lézards tyrans », est l'une des plus célèbres espèces de dinosaures. Tyrannosaurus fut l'un des derniers dinosaures non-aviens à avoir vécu jusqu'à l'extinction survenue à la limite Crétacé-Paléogène il y a 66 millions d'années[1].
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Woolly_mammoth_%28Mammuthus_primigenius%29_-_Mauricio_Ant%C3%B3n.jpg">
+<h3>Mammoth</h3>
+<p>Ice age giant 🧊
+    Les ossements de mammouths sont connus depuis la fin du XVIIIe siècle. Georges Cuvier voyait en eux les ancêtres des éléphants (ils en sont en réalité de proches cousins). Les premiers exemplaires de mammouths laineux congelés (fi) ont été découverts en Sibérie en 1799[5].
+
+Dans L'Histoire de l'Amérique[6], il est fait état de la découverte d'ossements de grande taille au confluent de la rivière Scioto avec l'Ohio : « Les naturalistes (…) n'ont jamais connu d'animal vivant d'une pareille nature. (…) les dents qu'on a trouvées ressemblent beaucoup à celles des éléphants. (…) Le Docteur Hunter (…) après avoir examiné plusieurs morceaux des défenses, des dents maxillaires & des mâchoires, a prétendu qu'elles n'appartenaient pas à l'éléphant, mais à quelque grand animal carnivore d'une espèce inconnue (Phil. transact. vol LVIII, pag. 34). On a trouvé des os de la même espèce & d'une grandeur aussi remarquable près des embouchures de l'Oby, de la Jenifeia, et de la Léna, trois grandes rivières de Sibérie. »
+</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dronte_dodo_Raphus_cucullatus.jpg/330px-Dronte_dodo_Raphus_cucullatus.jpg">
+
+<p>Extinct peaceful bird 🐦 
+    Le Dronte de Maurice (Raphus cucullatus) est une espèce d'oiseaux appartenant à la famille des Columbidae, endémique de l'île Maurice[1], disparue depuis la fin du XVIIe siècle. Il est plus connu sous le nom de dodo, nom vernaculaire également utilisé pour désigner le Solitaire de Bourbon, bien que celui-ci appartienne à un autre ordre. Selon la classification de référence du Congrès ornithologique international (version 15.1, 2025)[2], c'est une espèce monotypique (non subdivisée en sous-espèces).
+
+Apparenté au Solitaire de Rodrigues et appartenant comme les pigeons à la famille des Columbidae, ce dronte vivait dans les forêts ou les plaines. Il mesurait environ un mètre pour une masse moyenne de 10,2 kilogrammes. Découvert à la fin du XVIe siècle, il était décrit comme lent, ne fuyant pas l'homme, gros et presque cubique. Son corps au plumage bleu gris était pourvu d'ailes atrophiées jaune et blanc, ainsi que d'un panache de quatre ou cinq plumes de mêmes couleurs en guise de queue. Ses pattes jaunes comportaient quatre doigts (trois à l'avant et un à l'arrière) terminés par de grands ongles noirs. Son bec crochu avait une tache bleue caractéristique à son extrémité et une rouge sur la mandibule inférieure. Sa tête noire ou grise possédait deux plis importants à la base du bec.
+</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/VMNH_megalodon.jpg/330px-VMNH_megalodon.jpg"
+style="width:300px;border-radius:10px;">
+<h3>Megalodon</h3>
+<p>Ocean monster
+Le mégalodon (Otodus megalodon), terme signifiant « grande dent », est une espèce éteinte de grands requins lamniformes ayant vécu du début du Miocène (Aquitanien) au début du Pliocène (Plaisancien), il y a entre 23 à 3,6 millions d'années. Il était autrefois considéré comme un membre de la famille des Lamnidae et comme un proche parent du grand requin blanc. Les études plus récentes le classent dans la famille éteinte des Otodontidae, une lignée ayant divergé de celle du grand requin blanc vers le début du Crétacé.
+
+Bien que considéré comme l'un des prédateurs les plus grands et les plus puissants à avoir jamais vécu, le mégalodon n'est connu que par des restes fragmentaires, et son apparence et sa taille maximale demeurent incertaines. Les scientifiques divergent sur son apparence, qui aurait pu rappeler une version plus trapue du grand requin blanc, du requin-baleine, du requin pèlerin ou du requin-taureau. L'estimation la plus récente avec la plus petite marge d'erreur suggère une estimation de longueur maximale allant jusqu'à 20,3 m, bien que les longueurs modales soient estimées à 10,5 m. Les dents du mégalodon sont épaisses et robustes, conçues pour attraper des proies et casser les os, et leurs grandes mâchoires pourraient exercer une force de morsure allant jusqu'à 108 500 à 182 200 newtons 🦈</p>
+</div>
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/White_Lion.jpg/330px-White_Lion.jpg">
+
+<h3>🦁 White Lion</h3>
+<p>Le lion blanc est une forme mutante du lion de la sous-espèce lion d'Afrique ; il ne s'agit pas d'une sous-espèce séparée. On le croise occasionnellement dans les réserves naturelles d'Afrique du Sud, et il fait l'objet d'élevages sélectifs dans des zoos du monde entier.
+
+L'allèle responsable de la mutation est récessif, si bien que les lions blancs restent rares dans la nature et que seul un couple de lions blancs peut avoir des lionceaux blancs à coup sûr ; il arrive que des lionceaux blancs naissent de lions normaux au Timbavati et dans le Parc national de Kruger. La plus grande population de lions blancs se trouve dans les zoos où ils sont élevés dans le but de perpétuer leur couleur, ce qui présente des risques de consanguinité.
+
+Les lions blancs ne sont pas atteints d'albinisme. Leur mutation est appelée leucistisme qui donne à leur fourrure une couleur variant du blond au blanc presque pur. Cette couleur donne aux lions un désavantage dans la nature car elle les rend plus visibles aux yeux de leurs proies. Dans les années 1970, Chris McBride parle du lion blanc dans son livre Les lions blancs du Timbavati (The White Lions of Timbavati).
+
+Selon les croyances africaines, le lion blanc est divin et croiser sa route porte bonheur.</p>
+</div>
+
+
+</div>
+
+<script>
+// DARK / LIGHT MODE
+function toggleMode(){
+document.body.classList.toggle("light");
+}
+
+// SEARCH FILTER
+document.getElementById("search").addEventListener("keyup", function(){
+let value = this.value.toLowerCase();
+let cards = document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+let text = card.innerText.toLowerCase();
+card.style.display = text.includes(value) ? "block" : "none";
+});
+});
+</script>
+<style>
+body{
+font-family:Arial;
+background:#0b0b0b;
+color:white;
+text-align:center;
+margin:0;
+}
+
+.box{
+margin-top:100px;
+padding:20px;
+}
+
+button{
+padding:10px 15px;
+margin:10px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+background:orange;
+}
+
+button:hover{
+background:#ffca28;
+}
+
+#result{
+margin-top:20px;
+font-size:20px;
+color:#00e676;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>🧠 QUIZ GAME</h1>
+
+<p id="question">Loading...</p>
+
+<div id="answers"></div>
+
+<p id="result"></p>
+
+</div>
+
+<script>
+
+// 📌 COMMAND QUIZ SYSTEM
+let questions = [
+{
+q: "ما هو أكبر حيوان منقرض؟",
+a: ["Mammoth", "Dodo", "Lion"],
+correct: 0
+},
+{
+q: "أي حيوان طائر منقرض؟",
+a: ["Megalodon", "Dodo", "T-Rex"],
+correct: 1
+},
+{
+q: "أين عاش الماموث؟",
+a: ["الصحراء", "العصر الجليدي", "المحيط"],
+correct: 1
+}
+];
+
+let index = 0;
+let score = 0;
+
+function loadQ(){
+document.getElementById("result").innerHTML = "";
+
+let q = questions[index];
+document.getElementById("question").innerText = q.q;
+
+let answersDiv = document.getElementById("answers");
+answersDiv.innerHTML = "";
+
+q.a.forEach((ans,i)=>{
+let btn = document.createElement("button");
+btn.innerText = ans;
+
+btn.onclick = ()=>{
+check(i);
+};
+
+answersDiv.appendChild(btn);
+});
+}
+
+function check(i){
+if(i === questions[index].correct){
+score++;
+document.getElementById("result").innerText = "✔ Correct!";
+}else{
+document.getElementById("result").innerText = "❌ Wrong!";
+}
+
+index++;
+
+setTimeout(()=>{
+if(index < questions.length){
+loadQ();
+}else{
+document.getElementById("question").innerText = "End of Quiz!";
+document.getElementById("answers").innerHTML = "";
+document.getElementById("result").innerText = "Score: " + score + "/" + questions.length;
+}
+},1000);
+}
+
+loadQ();
+
+</script>
+<style>
+body{
+font-family:Arial;
+background:#0b0b0b;
+color:white;
+text-align:center;
+margin:0;
+}
+
+nav{
+background:#111;
+padding:10px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+button{
+padding:10px;
+border:none;
+border-radius:6px;
+background:orange;
+cursor:pointer;
+margin:5px;
+}
+
+.box{
+margin-top:60px;
+}
+
+.admin{
+display:none;
+background:#1c1c1c;
+padding:20px;
+margin:20px auto;
+width:300px;
+border-radius:10px;
+}
+
+input{
+padding:8px;
+margin:5px;
+width:90%;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h3>🧠 QUIZ GOD MODE</h3>
+<button onclick="toggleAdmin()">Admin</button>
+</nav>
+
+<div class="box">
+
+<h1 id="question">Loading...</h1>
+
+<div id="answers"></div>
+
+<p id="result"></p>
+
+</div>
+
+<!-- ADMIN PANEL -->
+<div class="admin" id="adminPanel">
+<h3>🔧 Admin Panel</h3>
+
+<input id="q" placeholder="Question">
+<input id="a1" placeholder="Answer 1">
+<input id="a2" placeholder="Answer 2">
+<input id="a3" placeholder="Answer 3">
+<input id="correct" placeholder="Correct index (0-2)">
+
+<button onclick="addQuestion()">Add Question</button>
+</div>
+
+<!-- SOUNDS -->
+<audio id="soundCorrect" src="https://www.soundjay.com/buttons/sounds/button-3.mp3"></audio>
+<audio id="soundWrong" src="https://www.soundjay.com/buttons/sounds/button-10.mp3"></audio>
+
+<script>
+
+let questions = [
+{
+q:"ما هو أكبر حيوان منقرض؟",
+a:["Mammoth","Dodo","Lion"],
+correct:0
+}
+];
+
+let index = 0;
+let score = 0;
+
+function loadQ(){
+let q = questions[index];
+
+document.getElementById("question").innerText = q.q;
+
+let box = document.getElementById("answers");
+box.innerHTML = "";
+
+q.a.forEach((ans,i)=>{
+let btn = document.createElement("button");
+btn.innerText = ans;
+
+btn.onclick = ()=>{
+check(i);
+};
+
+box.appendChild(btn);
+});
+}
+
+function check(i){
+if(i === questions[index].correct){
+score++;
+document.getElementById("result").innerText = "✔ Correct!";
+document.getElementById("soundCorrect").play();
+}else{
+document.getElementById("result").innerText = "❌ Wrong!";
+document.getElementById("soundWrong").play();
+}
+
+index++;
+
+setTimeout(()=>{
+if(index < questions.length){
+loadQ();
+}else{
+document.getElementById("question").innerText = "Game Over!";
+document.getElementById("answers").innerHTML = "";
+document.getElementById("result").innerText = "Score: " + score;
+}
+},1000);
+}
+
+// ADMIN PANEL
+function toggleAdmin(){
+let panel = document.getElementById("adminPanel");
+panel.style.display = panel.style.display === "block" ? "none" : "block";
+}
+
+function addQuestion(){
+let q = document.getElementById("q").value;
+let a1 = document.getElementById("a1").value;
+let a2 = document.getElementById("a2").value;
+let a3 = document.getElementById("a3").value;
+let c = parseInt(document.getElementById("correct").value);
+
+questions.push({
+q:q,
+a:[a1,a2,a3],
+correct:c
+});
+
+alert("Question Added!");
+}
+
+loadQ();
+<audio id="soundCorrect" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8b6b6f6b3.mp3?filename=correct-2-46134.mp3"></audio>
+
+<audio id="soundWrong" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_2f4f3d6b2a.mp3?filename=wrong-answer-129254.mp3"></audio>
+
+</script>
+
+
+</body>
+</html>
